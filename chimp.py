@@ -1,5 +1,6 @@
 # Import Modules
 import os, pygame
+import Qt.Gui
 from pygame.locals import *
 
 if not pygame.font: print "Warning, fonts disabled"
@@ -9,4 +10,4 @@ if not pygame.mixer: print "Warning, sound disabled"
 def load_image(name, colorKey=None):
 	fullname = os.path.join('data', name)
 	try:
-		
+	
